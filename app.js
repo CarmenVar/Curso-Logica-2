@@ -3,8 +3,8 @@
 let secretNumber = 0
 let attempts = 0;
 let drawnNumbersList = [];
-let maximunNumber = 10;
-console.log(secretNumber);
+let maximunNumber = 20;
+
 function textElementassignment(element,text){
     let htmlElement = document.querySelector(element);
     htmlElement.innerHTML = text;
